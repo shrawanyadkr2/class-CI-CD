@@ -22,9 +22,5 @@ jobs:
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           script: | 
-            cd class-CI-CD
-            git pull
-            npm install
-            npm run build
-            npm start
+            ls
             
